@@ -1,0 +1,10 @@
+{
+    "name": "Password Shortcut",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "a",
+    "browser_action":
+    {
+        "default_popup": "edge://settings/passwords"
+    }
+}
