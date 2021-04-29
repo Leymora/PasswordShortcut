@@ -1,10 +1,18 @@
 {
-    "name": "Password Shortcut",
+    "name": "Password Manager",
     "version": "0.0.0.1",
     "manifest_version": 2,
-    "description": "a",
-    "browser_action":
+    "description": "A Microsoft Edge plugin that adds an icon that simply sends you directly to your passwords list in the settings page.",
+    "icons":
     {
-        "default_popup": "edge://settings/passwords"
+        "128": "icons/passIcon.png"
+    },
+    "background":
+    {
+        "scripts": ["background.js"]
+    },
+    "browser_action": 
+    {
+
     }
 }
